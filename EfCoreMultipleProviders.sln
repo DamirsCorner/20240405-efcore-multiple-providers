@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreMultipleProviders", "EfCoreMultipleProviders\EfCoreMultipleProviders.csproj", "{4D0A1C67-D0C9-420B-B5A7-1037838B4916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreMultipleProviders.Tests", "EfCoreMultipleProviders.Tests\EfCoreMultipleProviders.Tests.csproj", "{FA3997DA-06F7-40FC-B783-FE8DD667F146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0A1C67-D0C9-420B-B5A7-1037838B4916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0A1C67-D0C9-420B-B5A7-1037838B4916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0A1C67-D0C9-420B-B5A7-1037838B4916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0A1C67-D0C9-420B-B5A7-1037838B4916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3997DA-06F7-40FC-B783-FE8DD667F146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3997DA-06F7-40FC-B783-FE8DD667F146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3997DA-06F7-40FC-B783-FE8DD667F146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3997DA-06F7-40FC-B783-FE8DD667F146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {993676B4-8DEE-42E8-88B0-DD78F0B13313}
+	EndGlobalSection
+EndGlobal
